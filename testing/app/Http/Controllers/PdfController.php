@@ -16,4 +16,10 @@ class PdfController extends Controller
         $pdf = PDF::loadView('test', compact('data'));
         return $pdf->download('invoice.pdf');
     }
+
+    public function index() {
+
+
+        return view('index');
+    }
 }

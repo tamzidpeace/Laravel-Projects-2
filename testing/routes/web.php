@@ -16,3 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/pdf', 'PdfController@download');
+
+Route::get('/vue', 'PdfController@index');
